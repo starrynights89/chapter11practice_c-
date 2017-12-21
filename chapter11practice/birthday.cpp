@@ -2,6 +2,7 @@
 
 int main()
 {
-    int dec, hex, oct;
+    double dec;
+    int hex, oct;
     cout << 
 }
