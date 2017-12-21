@@ -2,7 +2,6 @@
 
 int main()
 {
-    int p;
     cout << 08231989 << "\t(decimal)\n"
     	 << 08231989 << "\t(hexadecimal)\n"
     	 << 08231989 << "\t(octal)\n";
