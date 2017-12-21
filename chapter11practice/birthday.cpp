@@ -3,4 +3,5 @@
 int main()
 {
     int dec, hex, oct;
+    cout << 
 }
