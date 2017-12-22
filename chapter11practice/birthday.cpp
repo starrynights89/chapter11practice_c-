@@ -68,12 +68,19 @@ int main()
 	int birthyear = 1989;
 	int age = 28; 
 	
+	//print birth year
 	cout << "\tBirth year in decimal: " << birthyear << '\n';
 	cout << "\tBirth year converted to octal: "; 
 	decToOct(birthyear);
-	cout << "\tBirth year converted to hexadecimal:  ";
+	cout << "\tBirth year converted to hexadecimal: ";
 	decToHex(birthyear);
-	cout << "\n";
+
+	//print age
+	cout << "\tAge in decimal: " << age << '\n';
+	cout << "\tBirth year converted to ocal: ";
+	decToOct(age);
+	cout << "\tBirth year converted to hexadecimal: ";
+	decToHex(age);	
 
     keep_window_open();
     return 0;
