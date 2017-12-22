@@ -65,8 +65,8 @@ void decToHex(int n)
 
 int main()
 {
-	int oct = 1234;
-	int hex = 1234;
+	int oct = 1989;
+	int hex = 1989;
 
 	decToOct(oct);
 	decToHex(hex);
