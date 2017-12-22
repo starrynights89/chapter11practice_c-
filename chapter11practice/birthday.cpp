@@ -1,5 +1,5 @@
-//C++ program to convert a decimal to number 
-//to a hex and octal number
+//C++ program to convert a decimal to 
+//a hex and octal number
 
 #include "std_lib_facilities.h"
 
@@ -21,21 +21,37 @@ void decToOct(int n)
 	//printing octal number array in reverse order
 	for (int j = i - 1; j >= 0; j--)
 	{
-		cout << octalNum[j];
+		cout << octalNum[j]; 
 	}
 }
 
 //function to convert decimal to hex
 void decToHex(int n)
 {
-	//array to store hexadecimal number
-	int hexadecimalNum[100];
+	//char array to store hexadecimal number
+	char hexadecimalNum[100];
 
-	//array to store hexadecimal number array
+	//counter for hexadecimal number array
 	int i = 0;
 	while (n != 0)
 	{
-		hexadecimalNum[i] = n % 16;
+		//temporary variable to store remainder
+		int temp = 0;
+
+		//storing remainder in temp variable
+		temp = n % 16;
+
+		//check if temp < 10
+		if(temp < 10)
+		{
+			hexadecimalNum[i] = temp + 48;
+			i++;
+		}
+		else
+		{
+			hexadecimalNum[i] = temp + 55; 
+			i++;
+		}
 		n /= 16;
 		i++;
 	}
