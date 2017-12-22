@@ -65,15 +65,14 @@ void decToHex(int n)
 
 int main()
 {
-	int dec = 1989;
-	int oct = 1989;
-	int hex = 1989;
+	int birthyear = 1989;
+	int age = 28; 
 	
-	cout << "\tBirth year in decimal: " << dec << '\n';
+	cout << "\tBirth year in decimal: " << birthyear << '\n';
 	cout << "\tBirth year converted to octal: "; 
-	decToOct(oct);
+	decToOct(birthyear);
 	cout << "\tBirth year converted to hexadecimal:  ";
-	decToHex(hex);
+	decToHex(birthyear);
 	cout << "\n";
 
     keep_window_open();
