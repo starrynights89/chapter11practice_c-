@@ -69,11 +69,12 @@ int main()
 	int oct = 1989;
 	int hex = 1989;
 	
-	cout << "\nBirth year in decimal: " << dec;
-	cout << "\nBirth year converted to octal: ";
+	cout << "\tBirth year in decimal: " << dec << '\n';
+	cout << "\tBirth year converted to octal: "; 
 	decToOct(oct);
-	cout << "\nBirth year converted to hexadecimal: ";
+	cout << "\tBirth year converted to hexadecimal:  ";
 	decToHex(hex);
+	cout << "\n";
 
     keep_window_open();
     return 0;
