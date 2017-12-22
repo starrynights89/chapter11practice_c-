@@ -14,7 +14,7 @@ void decToOct(int n)
 	while (n != 0)
 	{
 		octalNum[i] = n % 8;
-		n += n /8;
+		n /= 8;
 		i++;
 	}
 
