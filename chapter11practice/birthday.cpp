@@ -68,7 +68,9 @@ int main()
 	int oct = 1989;
 	int hex = 1989;
 
+	cout << "\tBirth year converted to octal: \t";
 	decToOct(oct);
+	cout << "\tBirth year converted to hexadecimal: \t";
 	decToHex(hex);
 
     keep_window_open();
