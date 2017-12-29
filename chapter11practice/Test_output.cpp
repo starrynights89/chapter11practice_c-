@@ -27,6 +27,13 @@ void AddressBook()
 		if(int(book[i].email.size()) > d) d=int(book[i].email.size());
 	}
 	for(int i=0; i<int(book.size(); i++))
+	{
+		cout << book[i].first << " " << book[i].last;
+		for(int j=0; j<a+b+3-int(book[i].first.size())-
+			int(book[i].last.size()); j++) {
+			cout << " ";
+		}
+	}
 }
 
 //function to convert decimal to octal
