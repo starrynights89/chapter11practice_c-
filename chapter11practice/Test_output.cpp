@@ -3,6 +3,32 @@
 
 #include "std_lib_facilities.h"
 
+//class for addresses
+class Address
+{
+public: 
+	string first, last, number, email; 
+	Address(const string a, const string b, const string c, const string d) :
+		first(a), last(b), number(c), email(d) {};
+}
+
+vector<Address> book; 
+
+void AddressBook()
+{
+	book.push_back(Address("Nick","Maclaren",
+		"01223 334761","nmm1@cam.ac.uk"));
+	int a=0, b=0, c=0, d=0;
+	for(int i=0; i<int(book.size()); i++)
+	{
+		if(int(book[i].first.size()) > a) a=int(book[i].first.size());
+		if(int(book[i].last.size()) > b) b=int(book[i].last.size());
+		if(int(book[i].number.size()) > c) c=int(book[i].last.size());
+		if(int(book[i].email.size()) > d) d=int(book[i].email.size());
+	}
+	for(int i=0; i<int(book.size(); i++))
+}
+
 //function to convert decimal to octal
 void decToOct(int n)
 {
