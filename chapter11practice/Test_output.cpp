@@ -63,13 +63,7 @@ void decToHex(int n)
 	}
 }
 
-void int_input()
-{
-	int a, b, c, d;
-	cout << "Please enter hex, oct, and dec numbers"
-	cin >> a >> decToHex() >> b >> decToOct() >> c >> d;
-	cout << a << '\t' << b << '\t' << c << '\t' << d << endl;
-}
+
 
 int main()
 {
@@ -85,13 +79,10 @@ int main()
 
 	//print age
 	cout << "\tAge in decimal: " << age << '\n';
-	cout << "\tBirth year converted to ocal: ";
+	cout << "\tAge converted to ocal: ";
 	decToOct(age);
-	cout << "\tBirth year converted to hexadecimal: ";
+	cout << "\tAge converted to hexadecimal: ";
 	decToHex(age);	
-
-	//print input
-	int_input();
 
     keep_window_open();
     return 0;
