@@ -17,7 +17,7 @@ vector<Address>book;
 void AddressBook()
 {
 	book.push_back(Address("Nick","Maclaren",
-		"01223 334761","nmm1@cam.ac.uk"));
+		"01223334761","nmm1@cam.ac.uk"));
 	int a=0, b=0, c=0, d=0;
 	for(int i=0; i<int(book.size()); i++)
 	{
@@ -39,6 +39,7 @@ void AddressBook()
 		for(int j=0; j<d+2-int(book[i].email.size()); j++) {
 			cout << " ";
 		}
+		cout << book[i].number;
 		cout << book[i].email << endl;
 	}
 }
