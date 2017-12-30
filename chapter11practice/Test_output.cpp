@@ -107,6 +107,9 @@ void decToHex(int n)
 
 int main()
 {
+
+	AddressBook();
+	
 	int birthyear = 1989;
 	int age = 28; 
 	
