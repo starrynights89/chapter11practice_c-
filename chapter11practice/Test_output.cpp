@@ -33,6 +33,13 @@ void AddressBook()
 			int(book[i].last.size()); j++) {
 			cout << " ";
 		}
+		for(int j=0; j<c-int(book[i].number.size()); j++) {
+			cout << " ";
+		}
+		for(int j=0; j<d+2-int(book[i].email.size()); j++) {
+			cout << " ";
+		}
+		cout << book[i].email << endl;
 	}
 }
 
