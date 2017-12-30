@@ -12,7 +12,7 @@ public:
 		first(a), last(b), number(c), email(d) {};
 }
 
-vector<Address> book; 
+vector<Address>book; 
 
 void AddressBook()
 {
@@ -26,7 +26,7 @@ void AddressBook()
 		if(int(book[i].number.size()) > c) c=int(book[i].last.size());
 		if(int(book[i].email.size()) > d) d=int(book[i].email.size());
 	}
-	for(int i=0; i<int(book.size(); i++))
+	for(int i=0; i<int(book.size()); i++)
 	{
 		cout << book[i].first << " " << book[i].last;
 		for(int j=0; j<a+b+3-int(book[i].first.size())-
