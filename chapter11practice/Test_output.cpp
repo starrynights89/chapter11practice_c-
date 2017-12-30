@@ -10,9 +10,9 @@ public:
 	string first, last, number, email; 
 	Address(const string a, const string b, const string c, const string d) :
 		first(a), last(b), number(c), email(d) {};
-}
+};
 
-vector<Address>book; 
+vector<Address>book;
 
 void AddressBook()
 {
