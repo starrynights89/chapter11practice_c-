@@ -23,7 +23,7 @@ void AddressBook()
 	{
 		if(int(book[i].first.size()) > a) a=int(book[i].first.size());
 		if(int(book[i].last.size()) > b) b=int(book[i].last.size());
-		if(int(book[i].number.size()) > c) c=int(book[i].last.size());
+		if(int(book[i].number.size()) > c) c=int(book[i].number.size());
 		if(int(book[i].email.size()) > d) d=int(book[i].email.size());
 	}
 	for(int i=0; i<int(book.size()); i++)
