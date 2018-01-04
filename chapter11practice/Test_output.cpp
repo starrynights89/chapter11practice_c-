@@ -20,6 +20,12 @@ void AddressBook()
 		"01223334761","nmm1@cam.ac.uk"));
 	book.push_back(Address("Alexander","Hartson",
 		"3197778743","alexander-hartson@live.com));
+	book.push_back(Address("Alexander","Hartson",
+		"3197778743","alexander-hartson@live.com));
+	book.push_back(Address("Alexander","Hartson",
+		"3197778743","alexander-hartson@live.com));
+	book.push_back(Address("Alexander","Hartson",
+		"3197778743","alexander-hartson@live.com));
 	int a=0, b=0, c=0, d=0;
 	for(int i=0; i<int(book.size()); i++)
 	{
